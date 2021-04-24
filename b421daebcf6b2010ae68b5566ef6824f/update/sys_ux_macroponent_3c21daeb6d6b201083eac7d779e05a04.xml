@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "confirmation_message_1",
+      "elementLabel" : "Confirmation message 1",
+      "propertyValues" : {
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "circle-check-outline"
+        },
+        "iconStatus" : {
+          "type" : "JSON_LITERAL",
+          "value" : "positive"
+        },
+        "header" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "You have submitted this document for approval",
+            "comment" : ""
+          }
+        },
+        "headerLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "2"
+        },
+        "caption" : {
+          "type" : "CLIENT_TRANSFORM_SCRIPT",
+          "script" : {
+            "apiVersion" : "1.0.0",
+            "inlineScript" : "/**\n * @param {params} params\n * @param {api} params.api\n * @param {any} params.imports\n */\nfunction evaluateProperty({\napi\n}) {\nvar referenceNo = '';\nconsole.log(\"api.data.look_up_record_1.items\", api.data.look_up_record_1.items);\nif (api.data.look_up_record_1.items &amp;&amp; api.data.look_up_record_1.items.length &gt; 0) {\n        referenceNo = api.data.look_up_record_1.items[1].value;\n    }\n    if(api.data.document_approval_internationalization_support_1 &amp;&amp; api.data.document_approval_internationalization_support_1.output){\n    return api.data.document_approval_internationalization_support_1.output['reference_number'] + referenceNo;\n    }\n    else{\n        return '';   \n    }\n}"
+          }
+        },
+        "moreInfo" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "It's been sent for approval.",
+            "comment" : ""
+          }
+        },
+        "resolution" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        },
+        "primaryActionLabel" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "VIEW MY DOC",
+            "comment" : ""
+          }
+        },
+        "secondaryActionLabel" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "RETURN HOME",
+            "comment" : ""
+          }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "ckiybhttlaaaaddrddeiiapeeeeajjr",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#SECONDARY_CLICKED",
+        "sourceEventDefinition" : {
+          "apiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#SECONDARY_CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_480910_test_app.NAV_ITEM_SELECTED_RELAY_3c21daeb6d6b201083eac7d779e05a04",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : "doc_landing",
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
+                "external" : null
+              }
+            },
+            "sysId" : "fc21daeb2a6b2010729530e29b0d7b09"
+          },
+          "operation" : null,
+          "targetId" : "ckiybhttlaaaaddsddeiiafeskfhtii",
+          "type" : "EVENT"
+        } ]
+      }, {
+        "eventMappingId" : "ckifaznhgaaaahhiddeiijjiiomssjjye",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#PRIMARY_CLICKED",
+        "sourceEventDefinition" : {
+          "apiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#PRIMARY_CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "7821daeb346b2010cb178481b28d2f05"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckifaznhgaaaahhjddeiijjxmhhzgffeedd",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "71f1d86e8da97cc031fc30e03896cbe1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "font-family" : "Roboto"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Sidebar 1","rules":{"grid-area":"sidebar1"},"styles":{}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","background":"#FFFFFF 0% 0% no-repeat padding-box","box-shadow":"0px 4px 8px #0000004D","border-radius":"6px","opacity":"1","height":"auto","margin-top":"20%"}},{"slotName":"Sidebar 2","rules":{"grid-area":"sidebar2"},"styles":{}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"2fr 2fr 2fr","grid-template-areas":"\"sidebar1 main sidebar2\"","grid-gap":"0px 2rem","max-width":"90rem"},
+        "styles" : {"margin":"2rem auto 4rem auto"},
+        "templateId" : "f5ff467615f39010f87783c65626d829",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "9664d48053461010cbc2ddeeff7b128e",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "look_up_record_1",
+  "elementLabel" : "Look Up Record 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_480910_test_app_document_approval"
+    },
+    "recordId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "number,description,submitter,sys_id"
+    },
+    "returnTableMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "3821daeb1b6b2010644aed75604bcb03",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "document_approval_internationalization_support_1",
+  "elementLabel" : "Document Approval internationalization support 1",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events>fc21daeb2a6b2010729530e29b0d7b09</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","background-color":"rgba(227, 244, 237, 1)"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>doc_submitted</name>
+        <props>[ {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "number",
+  "label" : "Number",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[{"message":"VIEW MY DOC","comment":""},{"message":"It's been sent for approval.","comment":""},{"message":"RETURN HOME","comment":""},{"message":"You have submitted this document for approval","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "successNumber",
+  "label" : "successNumber",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "successSysId",
+  "label" : "successSysId",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "requestSysId",
+  "label" : "requestSysId",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:40</sys_created_on>
+        <sys_id>3c21daeb6d6b201083eac7d779e05a04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>doc_submitted</sys_name>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_ux_macroponent_3c21daeb6d6b201083eac7d779e05a04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:40</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

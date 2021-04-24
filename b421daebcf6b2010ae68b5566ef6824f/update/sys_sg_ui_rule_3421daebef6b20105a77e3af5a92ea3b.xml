@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule">
+    <sys_sg_ui_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition>text_01=rejected</condition>
+        <name>Rejected state rules for document approvals - List View Config</name>
+        <order/>
+        <parent_id>3021daebf36b2010c1fd5faaf6f9cb39</parent_id>
+        <parent_table>sys_sg_view_config</parent_table>
+        <reverse_if_false>false</reverse_if_false>
+        <sys_class_name>sys_sg_ui_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:30</sys_created_on>
+        <sys_id>3421daebef6b20105a77e3af5a92ea3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rejected state rules for document approvals - List View Config</sys_name>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_3421daebef6b20105a77e3af5a92ea3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:30</sys_updated_on>
+        <trigger>fd680bd85b431010da168d8fa881c7c8</trigger>
+    </sys_sg_ui_rule>
+</record_update>

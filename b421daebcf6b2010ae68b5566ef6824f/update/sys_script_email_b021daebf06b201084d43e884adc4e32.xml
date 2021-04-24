@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_480910_test_app.document_approval_noti</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    var eventStr = event.parm2;
+	var eventObj = JSON.parse(eventStr);
+	
+	if(eventObj['status'] == 'submitted')
+		email.setSubject('Awaiting Review ' + eventObj['doc_name']);
+	else
+		email.setSubject(eventObj['doc_name'] + ' ' + eventObj['status']);
+	
+	template.print('<div class="container rounded-lg">');
+	template.print('<div class="card text-center">');
+	if(eventObj['company'])
+	template.print('<div class="card-header">'+eventObj['company']+'</div>');
+	if(!eventObj['company'])
+	template.print('<div class="card-header"></div>');
+	template.print('<div class="card-body">');
+	if(eventObj['status'] == 'submitted' || eventObj['status'] == 'approved')
+		template.print('<div class="card-image"><img class="doc-status" src="x_480910_test_app.doc-approval-green-check-mark.png" /></div>');
+	else if(eventObj['status'] == 'returned')
+		template.print('<div class="card-image"><img class="doc-status" src="x_480910_test_app.doc-approval-yellow-exclamation-mark.png" /></div>');
+	else
+		template.print('<div class="card-image"><img class="doc-status" src="x_480910_test_app.doc-approval-red-exclamation-mark.png" /></div>');
+		
+	
+	//Header
+	if(eventObj['status'] == 'submitted')
+		template.print('<p class="document-header">You have a new document to review</p>');
+	else
+		template.print('<p class="document-header">Your document has been '+ eventObj['status'] + '</p>');
+	
+	
+	template.print('<p class="document-content-text">');
+	
+	//Body Content
+	if(eventObj['status'] == 'submitted'){
+		template.print('<b>Document Name</b> <br/>');
+		template.print(eventObj['doc_name'] + '<br/>');
+		template.print('<b>Document Owner</b> <br/>');
+		template.print(eventObj['doc_owner']);
+	}
+	else if(eventObj['status'] == 'approved'){
+		template.print(eventObj['approver'] + ' has approved your document, <br/>');
+		template.print(eventObj['doc_name']);
+	}
+	else{
+		template.print('Reason for rejection: <br/>');
+		template.print('<p style="color:rgb(112, 112, 112)">' + eventObj['reason'] + '</p>');
+	}
+	
+	template.print('</p>');
+	
+	
+	template.print('<p class="document-content-text"><br /></p>');
+	template.print('<div class="btn-primary"><a style="color:#FFFFFF" href="/now/doc-approval/portal/doc_view/62d949d5b7a96010116b6871ce11a9f5"><br/>VIEW SUBMISSION</a></div>');
+	template.print('<div class="card-image"><img class="nopadding full" src="x_480910_test_app.doc-approval-email.png" /></div>');
+	template.print('<div><br /></div>');
+	template.print('</div>');
+	template.print('</div>');
+	template.print('<div class="document-footer">');
+	template.print('<div class="document-footer-text">This email was sent to you by your company\'s task management system.');
+	template.print('<p>&copy; ' + eventObj['company']+' | All Rights Reserved</p>');
+	template.print('</div>');
+	template.print('</div>');
+	template.print('</div>');
+	
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:49</sys_created_on>
+        <sys_id>b021daebf06b201084d43e884adc4e32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_480910_test_app.document_approval_noti</sys_name>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_script_email_b021daebf06b201084d43e884adc4e32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:49</sys_updated_on>
+    </sys_script_email>
+</record_update>

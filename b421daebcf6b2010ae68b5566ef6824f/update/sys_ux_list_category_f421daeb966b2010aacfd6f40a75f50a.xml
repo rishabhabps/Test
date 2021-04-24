@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Document Approval - Workspace - Admin">b421daebb46b2010b18dc61badc7460a</configuration>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f421daeb966b2010aacfd6f40a75f50a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Approval Admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_ux_list_category_f421daeb966b2010aacfd6f40a75f50a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:38</sys_updated_on>
+        <title>Document Approval Admin</title>
+    </sys_ux_list_category>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition">
+    <sys_highlighted_value_condition action="INSERT_OR_UPDATE">
+        <conditions table="x_480910_test_app_document_approver">state=submitted^EQ<item display_value="Submitted" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="submitted"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <highlighted_value display_value="state">b021daeb3e6b201043748d2cdadb3d1a</highlighted_value>
+        <order>0</order>
+        <show_icon>true</show_icon>
+        <status>info</status>
+        <sys_class_name>sys_highlighted_value_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:29</sys_created_on>
+        <sys_id>f421daeb476b2010d6d7d34c4843551a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_highlighted_value_condition_f421daeb476b2010d6d7d34c4843551a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:29</sys_updated_on>
+        <value_override/>
+    </sys_highlighted_value_condition>
+</record_update>

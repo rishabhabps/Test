@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Test App Portal Config">3c21daebfb6b2010a1d18f7f459f6e31</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Search results">7021daebc56b2010abb78c80ca1c5d4b</macroponent>
+        <macroponent_config>{
+  "evamDefinitionId" : "",
+  "searchFacets" : "",
+  "filterFacets" : "",
+  "searchContextConfigId" : "",
+  "paginationToken" : "",
+  "disableSpellCheck" : "",
+  "searchTerm" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>doc_search default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="search">f421daeb4e6b2010562940edf3b70d49</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c21daebf26b2010cbf82f6e3232740d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>doc_search default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_ux_screen_7c21daebf26b2010cbf82f6e3232740d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:42</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c21daebf26b2010cbf82f6e3232740d"/>
+</record_update>

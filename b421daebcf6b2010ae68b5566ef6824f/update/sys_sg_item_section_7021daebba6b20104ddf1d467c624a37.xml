@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_section">
+    <sys_sg_item_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data_item/>
+        <destination_screen display_value="New Document Approvals">3821daebd76b201026c89c47fd057839</destination_screen>
+        <display_title>true</display_title>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <hide_see_all_button>false</hide_see_all_button>
+        <max_items_display_count>15</max_items_display_count>
+        <orientation>vertical</orientation>
+        <required_roles/>
+        <sys_class_name>sys_sg_item_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:32</sys_created_on>
+        <sys_id>7021daebba6b20104ddf1d467c624a37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Document Approvals</sys_name>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_sg_item_section_7021daebba6b20104ddf1d467c624a37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:32</sys_updated_on>
+        <table/>
+        <title>New Document Approvals</title>
+        <visible_condition/>
+    </sys_sg_item_section>
+</record_update>

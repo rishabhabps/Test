@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="7821daeb646b2010632052694b8ba142" sys_domain="global" table="x_480910_test_app_document_approval" version="3" view="portal">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-22 10:33:43</sys_created_on>
+            <sys_id>b821daebcf6b2010d6a9fe31cb1b0942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_480910_test_app_document_approval" sys_domain="global" view="81acb0436d2220100acb70b3534330de">7821daeb646b2010632052694b8ba142</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-22 10:33:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_category</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-22 10:33:43</sys_created_on>
+            <sys_id>f821daeb536b20100226d2fc4c6fea42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_480910_test_app_document_approval" sys_domain="global" view="81acb0436d2220100acb70b3534330de">7821daeb646b2010632052694b8ba142</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-22 10:33:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-22 10:33:43</sys_created_on>
+            <sys_id>3c21daeb326b20108fe247be3c327c42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_480910_test_app_document_approval" sys_domain="global" view="81acb0436d2220100acb70b3534330de">7821daeb646b2010632052694b8ba142</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-22 10:33:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_480910_test_app_document_approval</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-22 10:33:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7821daeb646b2010632052694b8ba142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_480910_test_app_document_approval</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+            <sys_update_name>sys_ui_section_7821daeb646b2010632052694b8ba142</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-22 10:33:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Portal" name="portal">81acb0436d2220100acb70b3534330de</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

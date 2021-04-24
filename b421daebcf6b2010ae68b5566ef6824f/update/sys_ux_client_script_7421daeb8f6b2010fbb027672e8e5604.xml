@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Search results">7021daebc56b2010abb78c80ca1c5d4b</macroponent>
+        <name>Search Result Clicked</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    imports
+}) {
+    const ACTION_NAME = event.payload.action.actionDispatch;
+    if (ACTION_NAME !== 'NAVIGATION') return;
+    var table = event.payload.action.actionPayload.table;
+    var route = 'home';
+    if (table == "x_480910_test_app_document_approval") {
+        route = "doc_view";
+    }
+
+    const fields = {
+        "sysId": event.payload.action.actionPayload.sysId
+    };
+    api.emit('NAV_ITEM_SELECTED', {
+        route,
+        fields
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:49</sys_created_on>
+        <sys_id>7421daeb8f6b2010fbb027672e8e5604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search Result Clicked</sys_name>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_ux_client_script_7421daeb8f6b2010fbb027672e8e5604</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:49</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

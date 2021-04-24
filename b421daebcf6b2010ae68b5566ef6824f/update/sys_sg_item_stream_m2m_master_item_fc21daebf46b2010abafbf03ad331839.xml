@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Approvals this year Item Stream">3c21daeb886b20104d27da8ea7605f39</item_stream>
+        <master_item display_value="Approvals this year Main Item">7021daebcc6b2010de1b8e219fee393a</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:39</sys_created_on>
+        <sys_id>fc21daebf46b2010abafbf03ad331839</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_fc21daebf46b2010abafbf03ad331839</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:39</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Test App Workspace Config">f821daebea6b20106f5aa556d46ed72f</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckjaapocbbmaaaabbffddghhyvxeeeepccup",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_480910_test_app.CONTENT_UPDATED_RELAY_b821daeb806b20105dc320449bcf3a4a",
+  "sourceEventDefinition" : {
+    "apiName" : "x_480910_test_app.CONTENT_UPDATED_RELAY_b821daeb806b20105dc320449bcf3a4a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.CONTENT_UPDATED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          }
+        }
+      },
+      "sysId" : "75f3815fb0d9c38bb6df1626a0f284c4"
+    },
+    "operation" : null,
+    "targetId" : "ckjaapocbbmaaaabbeeddghhyffjdduojtcc",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckhwhnoroaaaaaarddhiicctdaaseenxx",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_480910_test_app.NAV_ITEM_SELECTED_RELAY_b821daeb806b20105dc320449bcf3a4a",
+  "sourceEventDefinition" : {
+    "apiName" : "x_480910_test_app.NAV_ITEM_SELECTED_RELAY_b821daeb806b20105dc320449bcf3a4a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckhwhnoroaaaaaaqddhiiccmddwidqle",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckhwhiydaaaaaaamddhiiccccnhddknqaa",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_uib_base_aw.ROW_CLICKED",
+  "sourceEventDefinition" : {
+    "apiName" : "sn_uib_base_aw.ROW_CLICKED",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : {
+          "route" : null,
+          "fields" : null,
+          "params" : null,
+          "redirect" : null,
+          "passiveNavigation" : null,
+          "title" : null,
+          "multiInstField" : null,
+          "targetRoute" : null,
+          "external" : null
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckhwhiydaaaaaaanddhiicciiffccutahd",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="List">b821daeb806b20105dc320449bcf3a4a</macroponent>
+        <macroponent_config>{
+  "tinyId" : "",
+  "query" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>List default</name>
+        <order>200</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="List">7421daebbd6b201090c09576b35bc649</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f421daebef6b201051848ff6cfa3a246</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_ux_screen_f421daebef6b201051848ff6cfa3a246</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:38</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=f421daebef6b201051848ff6cfa3a246"/>
+</record_update>

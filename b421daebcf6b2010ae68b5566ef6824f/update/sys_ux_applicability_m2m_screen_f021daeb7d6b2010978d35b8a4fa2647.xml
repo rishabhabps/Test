@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Document Admin">3021daebeb6b20105cc3c81f6a66d345</applicability>
+        <order>100</order>
+        <screen display_value="List Admin">b021daeb166b201038e7e283c8183847</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:41</sys_created_on>
+        <sys_id>f021daeb7d6b2010978d35b8a4fa2647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_f021daeb7d6b2010978d35b8a4fa2647</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:41</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

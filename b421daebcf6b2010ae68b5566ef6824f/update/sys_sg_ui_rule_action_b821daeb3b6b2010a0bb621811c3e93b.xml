@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order/>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:30</sys_created_on>
+        <sys_id>b821daeb3b6b2010a0bb621811c3e93b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_b821daeb3b6b2010a0bb621811c3e93b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:30</sys_updated_on>
+        <target>viewgroup_01</target>
+        <ui_rule display_value="Submitted state rules for document approvals - List View Config">f421daeb4c6b2010746e51a3bcaa783b</ui_rule>
+        <value>{"BackgroundColor":"#C3DDF0"}</value>
+    </sys_sg_ui_rule_action>
+</record_update>

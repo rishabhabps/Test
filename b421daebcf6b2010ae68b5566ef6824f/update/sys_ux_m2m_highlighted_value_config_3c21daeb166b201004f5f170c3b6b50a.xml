@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_highlighted_value_config">
+    <sys_ux_m2m_highlighted_value_config action="INSERT_OR_UPDATE">
+        <highlighted_value display_value="state">b021daeb3e6b201043748d2cdadb3d1a</highlighted_value>
+        <highlighted_value_config display_value="Document Approvals">7421daeb806b2010924baf94c8b9ec0a</highlighted_value_config>
+        <order>0</order>
+        <sys_class_name>sys_ux_m2m_highlighted_value_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:39</sys_created_on>
+        <sys_id>3c21daeb166b201004f5f170c3b6b50a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_ux_m2m_highlighted_value_config_3c21daeb166b201004f5f170c3b6b50a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:39</sys_updated_on>
+    </sys_ux_m2m_highlighted_value_config>
+</record_update>

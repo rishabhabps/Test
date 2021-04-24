@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Test App Portal">bc21daeb556b2010eaada136691c370b</page>
+        <required_translations>[{"message":"Logout","comment":""},{"message":"UserMenu","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>7c21daebca6b2010a7a68b82da5c2e0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_ux_page_property_7c21daebca6b2010a7a68b82da5c2e0b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:51</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_480910_test_app.bc21daeb556b2010eaada136691c370b.root.chrome_header</unique_name>
+        <value>{&#13;
+  "privatePage": {&#13;
+    "notificationsEnabled": true,&#13;
+    "searchEnabled": true,&#13;
+    "userPrefsEnabled": true,&#13;
+    "globalTools": {&#13;
+      "collapsingMenuId": 0,&#13;
+      "primaryItems": [&#13;
+        {&#13;
+          "label": "UserMenu",&#13;
+          "icon": "user",&#13;
+          "type": "menu",&#13;
+          "primaryDisplay": "icon",&#13;
+          "value": {&#13;
+            "children": [&#13;
+              {&#13;
+                "label": {&#13;
+                  "translatable": true,&#13;
+                  "message": "Logout"&#13;
+                },&#13;
+                "type": "navigation",&#13;
+                "position": 200,&#13;
+                "value": {&#13;
+                  "value": {&#13;
+                    "href": "/now/doc-approval/portal/login/params/logged-out/true"&#13;
+                  },&#13;
+                  "type": ""&#13;
+                }&#13;
+              }&#13;
+            ]&#13;
+          }&#13;
+        }&#13;
+      ],&#13;
+      "secondaryItems": []&#13;
+    }&#13;
+  },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c21daebca6b2010a7a68b82da5c2e0b"/>
+</record_update>

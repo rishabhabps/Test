@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_header_config">
+    <sys_ux_header_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Header Configuration for Document Approval Workspace</description>
+        <name>Document Approval Workspace</name>
+        <sys_class_name>sys_ux_header_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-22 10:33:49</sys_created_on>
+        <sys_id>3421daeb7a6b20107c87c72d528ae90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Approval Workspace</sys_name>
+        <sys_package display_value="Test App" source="x_480910_test_app">b421daebcf6b2010ae68b5566ef6824f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">b421daebcf6b2010ae68b5566ef6824f</sys_scope>
+        <sys_update_name>sys_ux_header_config_3421daeb7a6b20107c87c72d528ae90a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-22 10:33:49</sys_updated_on>
+    </sys_ux_header_config>
+</record_update>
